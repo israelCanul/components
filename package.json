@@ -1,0 +1,32 @@
+{
+  "name": "naricomponents",
+  "version": "1.0.0",
+  "description": "components",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/israelCanul/components.git"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "babel src/lib --out-dir dist --copy-files",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.2",
+    "react-dom": "^16.8.0 || ^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8"
+  },
+  "author": "IICC",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-react": "^7.14.5",
+    "react": "^17.0.2"
+  }
+}
