@@ -1,6 +1,6 @@
 {
   "name": "naricomponents",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "components",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -12,7 +12,8 @@
     "start": "react-scripts start",
     "build": "babel src/lib --out-dir dist --copy-files",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "publish": "npm publish"
   },
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.2",
