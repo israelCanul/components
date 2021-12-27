@@ -1,6 +1,6 @@
-import React, { useRef, useEffect } from "react";
+import React,{ useRef, useEffect } from "react";
 import style from "./styles/collapser.module.css";
-console.log(style);
+
 const Collapser = ({
   children,
   className = "",
@@ -15,6 +15,7 @@ const Collapser = ({
       }, 200);
     }
   }, [section, active]);
+
   return (
     <div
       ref={section}
