@@ -42,7 +42,7 @@ const Collapser = _ref => {
     className: "".concat(className, " ").concat(_collapserModule.default.collapser, " ").concat(active === true ? "active" : "")
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "".concat(_collapserModule.default.content)
-  }, children));
+  }, children, "ssaaasperrito"));
 };
 
 var _default = Collapser;

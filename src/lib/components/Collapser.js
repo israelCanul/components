@@ -29,7 +29,7 @@ const Collapser = ({
         active === true ? "active" : ""
       }`}
     >
-      <div className={`${style.content}`}>{children}</div>
+      <div className={`${style.content}`}>{children}ssaaasperrito</div>
     </div>
   );
 };
